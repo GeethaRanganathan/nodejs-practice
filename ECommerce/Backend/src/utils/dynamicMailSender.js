@@ -52,6 +52,6 @@ async function sendEmailHelper(otp, htmlTemplate, userName, to) {
     await emailSender(to, subject, finalHTMLCode, text);
 }
 
-// sendEmailHelper("123456", 'Ashwani Rajput', 'ashwin.rajput87@gmail.com')
+sendEmailHelper("123456", 'Geetha Ranganathan', 'geeth.ranganathan@gmail.com')
 
 module.exports = sendEmailHelper;
